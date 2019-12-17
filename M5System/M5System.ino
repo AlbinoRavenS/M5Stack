@@ -14,7 +14,6 @@ int biasflag = 0;
 const char* ssid       = "Buffalo-G-AC8E";
 const char* password   = "5aidas7biba8u";
 
-
 ////////////
 //LoopTask//
 ////////////
@@ -86,9 +85,9 @@ void WriteButtonAction() {
   M5.Lcd.printf("%s", btnAstr);
   M5.Lcd.setCursor(110, 220);
   M5.Lcd.printf("%s", btnBstr);
-  M5.Lcd.setCursor(220, 200);
+  M5.Lcd.setCursor(240, 200);
   M5.Lcd.printf("%s", btnCstr);
-  M5.Lcd.setCursor(280, 200);
+  M5.Lcd.setCursor(300, 200);
   M5.Lcd.printf("%d", runMode);
   M5.Lcd.setCursor(220, 220);
   M5.Lcd.printf("%s", modeList[runMode]);
